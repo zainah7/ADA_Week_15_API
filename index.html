@@ -8,7 +8,7 @@
      <title>Tell a joke</title>
 </head>
 <body>
-     <main id="main_id">
+     <main>
           <div>
                <img src="https://i.pinimg.com/originals/b2/bb/e8/b2bbe8c8f46afa220b048b97be926df3.gif"
                 alt="joke-img" height="100px" id="joke-img">
@@ -16,8 +16,9 @@
           <div>
                <button onclick="tellAJoke()">Tell a joke</button>
                <p id="setup"></p>
-               <button id="punclinebtn" onclick="tellPunchline ()">Punchline?</button>
+               <button id="punchlinebtn" onclick="tellPunchline()">Punchline?</button>
                <p class="punchline"></p>
+               <button id="reset" onclick="$ResetBtn ()"> Another one!</button>
           </div>
      </main>
      

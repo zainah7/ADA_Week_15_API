@@ -16,8 +16,9 @@ img {
 button {
      padding: 10px;
      margin-top: 20px;
-     width: 30%;
+     width: 25%;
     background-color: rgb(189, 218, 220);
+    border-radius: 200px;
 }
 button:hover{
      background-color: rgb(72, 125, 126);
@@ -26,4 +27,7 @@ button:hover{
 #punclinebtn {
      margin: auto;
      display: none;
+}
+#reset {
+     margin: auto;
 }
