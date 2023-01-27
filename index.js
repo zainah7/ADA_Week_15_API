@@ -23,6 +23,7 @@ const tellAJoke = () => {
      };
     
      const tellPunchline = () => {
+          punchline.innerHTML = joke.punchline;
           punchline.style.display = "block";
           jokeimg.src = 
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL3t67tm0PBNcfrGlunoXYPgUktBT2uREjZQ&usqp=CAU"
