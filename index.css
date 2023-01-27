@@ -24,10 +24,11 @@ button:hover{
      background-color: rgb(72, 125, 126);
 }
 
-#punclinebtn {
+#punchlinebtn {
      margin: auto;
      display: none;
 }
-#reset {
+
+.reset {
      margin: auto;
 }
